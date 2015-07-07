@@ -48,3 +48,6 @@ function! Writing()
 endfunction
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+:let g:pymode_rope = 0
+:let g:pymode_rope_autoimport = 0
+let NERDSpaceDelims=1
