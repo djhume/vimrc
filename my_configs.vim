@@ -3,6 +3,7 @@
 " => Set line numbers on
 """""""""""""""""""""""""""""""
 :set nu
+:set relativenumber
 """"""""""""""""""""""""""""""
 " => Set to New Zealand spelling
 """""""""""""""""""""""""""""""
@@ -51,3 +52,5 @@ match OverLength /\%81v.\+/
 :let g:pymode_rope = 0
 :let g:pymode_rope_autoimport = 0
 let NERDSpaceDelims=1
+
+
