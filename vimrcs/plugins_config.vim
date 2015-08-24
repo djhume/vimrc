@@ -1,4 +1,4 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Important: 
 "       This requries that you install https://github.com/amix/vimrc !
 "
@@ -138,3 +138,18 @@ let g:syntastic_python_checkers=['pyflakes']
       " \     'move-p': '<buffer>[pf',
       " \   }
       " \ })
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-pencil
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible
+filetype plugin on       " may already be in your .vimrc
+
+augroup pencil
+  autocmd!
+  autocmd FileType markdown,mkd,text call pencil#init()
+                            \ |      call lexical#init()
+                            \ |      call litecorrect#init()
+                            \ |      call textobj#quote#init()
+                            \ |      call textobj#sentence#init()
+augroup END
