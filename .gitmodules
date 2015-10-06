@@ -10,3 +10,6 @@
 [submodule "sources_non_forked/ctags.vim"]
 	path = sources_non_forked/ctags.vim
 	url = https://github.com/vim-scripts/ctags.vim.git
+[submodule "sources_non_forked/vim-lexical"]
+	path = sources_non_forked/vim-lexical
+	url = https://github.com/reedes/vim-lexical.git
