@@ -7,3 +7,6 @@
 [submodule "sources_non_forked/committia"]
 	path = sources_non_forked/committia
 	url = https://github.com/rhysd/committia.vim.git
+[submodule "sources_non_forked/ctags.vim"]
+	path = sources_non_forked/ctags.vim
+	url = https://github.com/vim-scripts/ctags.vim.git
