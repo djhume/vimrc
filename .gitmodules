@@ -10,7 +10,3 @@
 [submodule "sources_non_forked/vim-lexical"]
 	path = sources_non_forked/vim-lexical
     url = https://github.com/reedes/vim-lexical.git
-[submodule "sources_non_forked/vim-litecorrect"]
-	path = sources_non_forked/vim-lexical
-	url = https://github.com/reedes/vim-litecorrect.git
-
