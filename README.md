@@ -1,5 +1,10 @@
 # The Ultimate vimrc
 
+Started with the ultimate vimrc, but slowly transitioning to my own methods using pathogen and git submodule add instead of git clone in the sources_non_forker dir. 
+
+D J Hume (06/10/2015)
+
+
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
 
 There are two versions:
