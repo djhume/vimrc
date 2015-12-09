@@ -147,7 +147,7 @@ filetype plugin on       " may already be in your .vimrc
 
 augroup pencil
   autocmd!
-  autocmd FileType markdown,mkd,text call pencil#init()
+  autocmd FileType markdown,mkd,md,text call pencil#init()
                             \ |      call lexical#init()
                             \ |      call litecorrect#init()
                             \ |      call textobj#quote#init()
