@@ -16,3 +16,9 @@
 [submodule "sources_non_forked/vim-textobj-sentence"]
 	path = sources_non_forked/vim-textobj-sentence
 	url = https://github.com/reedes/vim-textobj-sentence.git
+[submodule "sources_non_forked/bundle/table-mode"]
+	path = sources_non_forked/bundle/table-mode
+	url = git@github.com:dhruvasagar/vim-table-mode.git
+[submodule "sources_non_forked/table-mode"]
+	path = sources_non_forked/table-mode
+	url = git@github.com:dhruvasagar/vim-table-mode.git
