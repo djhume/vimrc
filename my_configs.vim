@@ -21,6 +21,10 @@ set nocompatible
 if has("autocmd")
   filetype plugin indent on
 endif
+""""""""""""""""""""""""""""""
+" => enable quick kj to escape insert mode
+""""""""""""""""""""""""""""""
+inoremap kj <ESC>
 
 function! Writing()
   " my writing style
